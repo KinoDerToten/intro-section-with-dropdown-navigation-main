@@ -79,3 +79,12 @@ header .menu li.company ul li > a {
 .show-sub-menu {
   display: block;
 }
+
+.login-register a {
+  padding: 10px 20px;
+}
+
+.login-register a:hover {
+  border: 1px solid hsl(0, 0%, 8%);
+  border-radius: 15px;
+}
