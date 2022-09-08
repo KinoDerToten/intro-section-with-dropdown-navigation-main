@@ -80,6 +80,10 @@ header .menu li.company ul li > a {
   display: block;
 }
 
+.login-register {
+  margin-right: 30px;
+}
+
 .login-register a {
   padding: 10px 20px;
 }
@@ -87,4 +91,59 @@ header .menu li.company ul li > a {
 .login-register a:hover {
   border: 1px solid hsl(0, 0%, 8%);
   border-radius: 15px;
+}
+
+main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.container-section {
+  width: 720px;
+}
+
+section.section-body {
+  padding: 150px 0;
+}
+
+main h1 {
+  font-size: 5rem;
+  width: 530px;
+  margin-bottom: 50px;
+}
+
+main p {
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  width: 430px;
+  margin-bottom: 50px;
+}
+
+main a {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+main a:hover {
+  background-color: white;
+  border: 1px solid hsl(0, 0%, 8%);
+}
+
+section.section-footer img {
+  margin-right: 30px;
+}
+
+section.image-hero {
+  width: 720px;
+}
+
+section.image-hero img {
+  width: 100%;
+  height: 700px;
 }
